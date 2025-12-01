@@ -10,9 +10,10 @@ body {
 #title {
     background: blue;
     padding: 20px;
-    border-width: 3px;
+    /* border-width: 3px;
     border-style: solid;
-    border-color: black;
+    border-color: black; */
+    border: 3px solid black;
     margin: 20px;
 }
 
