@@ -3,11 +3,15 @@
     src: url('../fonts/Harmond-ExtBdItaExp.otf');
 }
 
+body {
+    font-family: 'Harmond-ExtdltaExp';
+}
+
 section {
     background: blue;
 }
 
 h1 {
     color: white;
-    font-family: 'Harmond-ExtdltaExp';
+    
 }
