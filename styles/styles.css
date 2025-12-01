@@ -15,6 +15,9 @@ body {
     border-color: black; */
     border: 3px solid black;
     margin: 20px;
+    /* width: 300px; */
+    width: 50%;
+    height: 200px;
 }
 
 .products {
