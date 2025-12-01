@@ -9,6 +9,11 @@ body {
 
 #title {
     background: blue;
+    padding: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
 }
 
 .products {
