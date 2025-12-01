@@ -15,6 +15,10 @@ body {
     background: red;
 }
 
-h1 {
+/* h1 {
     color: white;
+} */
+
+#title h1 {
+    color: yellow;
 }
