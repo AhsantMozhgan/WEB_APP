@@ -7,11 +7,14 @@ body {
     font-family: 'Harmond-ExtdltaExp';
 }
 
-section {
+#title {
     background: blue;
+}
+
+.products {
+    background: red;
 }
 
 h1 {
     color: white;
-    
 }
