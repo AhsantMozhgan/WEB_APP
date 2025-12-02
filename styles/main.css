@@ -11,3 +11,14 @@ body {
     margin: 0;
     font-family: 'Harmond-ExtdltaExp';
 }
+
+.main-header {
+    width: 100%;
+    background: rgb(0, 119, 255);
+    /* padding: 20px; */
+    padding: 8px 16px;
+}
+
+a {
+    color: white;
+}
