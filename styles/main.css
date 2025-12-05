@@ -21,13 +21,21 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header_logo {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 .main-nav {
     display: inline-block;
     /* width: 100%; */
-    width: calc(100% - 55px);
+    width: calc(100% - 75px);
     text-align: right;
+    vertical-align: middle;
 }
 
 .main-nav__items {
