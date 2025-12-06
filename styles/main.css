@@ -56,22 +56,27 @@ body {
 }
 
 .main-nav__item a:after {
-    content: " (link)";
+    /* content: " (link)"; */
     color: #000000;
 }
 
-.main-nav__item a:hover {
+/* .main-nav__item a:hover {
     color: #ffffff;
 }
 
 .main-nav__item a:active {
     color: #ffffff;
+} */
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #ffffff;
 }
 
-p::first-letter {
+/* p::first-letter {
     font-size: 20px;
     color: red;
-}
+} */
 
 a {
     color: white;
