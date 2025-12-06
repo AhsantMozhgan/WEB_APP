@@ -10,6 +10,7 @@
 body {
     margin: 0;
     font-family: 'Harmond-ExtdltaExp';
+    direction: ltr;
 }
 
 .main-header {
@@ -94,6 +95,24 @@ body {
     background-size: cover;
 }
 
+.section-title {
+    color: #1565c0;
+    text-align: center;
+}
+
+.plan__list {
+    width: 65%;
+    margin: auto;
+}
+
+.plan {
+    width: 30%;
+    padding: 5px;
+    margin: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
 
 /* p::first-letter {
     font-size: 20px;
