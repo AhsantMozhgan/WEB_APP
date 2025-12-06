@@ -73,6 +73,18 @@ body {
     color: #ffffff;
 }
 
+.main-nav__item--account a {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--account a:hover,
+.main-nav__item--account a:active {
+    color: #1565c0;
+}
+
 /* p::first-letter {
     font-size: 20px;
     color: red;
