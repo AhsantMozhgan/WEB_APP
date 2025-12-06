@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family: 'Harmond-ExtdltaExp';
-    direction: ltr;
+    /* direction: ltr; */
 }
 
 .main-header {
@@ -113,11 +113,29 @@ body {
     vertical-align: middle;
     text-align: center;
     box-shadow: 0 0 25px 5px rgb(0, 0, 0, 0.07);
+    direction: ltr;
+    border-radius: 3px;
 }
 
 .plan--highlighted {
     background: #e3f2fd;
     color: #1565c0;
+}
+
+.plan__title--highlighted {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
 }
 
 /* p::first-letter {
