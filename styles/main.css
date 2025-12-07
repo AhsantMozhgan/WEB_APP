@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+a {
+    color: white;
+}
+
 @font-face {
     font-family: Harmond-ExtdltaExp;
     src: url('../fonts/Harmond-ExtBdItaExp.otf');
@@ -10,13 +14,11 @@
 body {
     margin: 0;
     font-family: 'Harmond-ExtdltaExp';
-    /* direction: ltr; */
 }
 
 .main-header {
     width: 100%;
     background: rgb(0, 119, 255);
-    /* padding: 20px; */
     padding: 8px 16px;
 }
 
@@ -33,7 +35,6 @@ body {
 
 .main-nav {
     display: inline-block;
-    /* width: 100%; */
     width: calc(100% - 75px);
     text-align: right;
     vertical-align: middle;
@@ -47,7 +48,6 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    /* padding: 20px; */
     margin: 0 16px;
 }
 
@@ -57,17 +57,8 @@ body {
 }
 
 .main-nav__item a:after {
-    /* content: " (link)"; */
     color: #000000;
 }
-
-/* .main-nav__item a:hover {
-    color: #ffffff;
-}
-
-.main-nav__item a:active {
-    color: #ffffff;
-} */
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
@@ -212,13 +203,4 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     columns: #e0e0e0;
-}
-
-/* p::first-letter {
-    font-size: 20px;
-    color: red;
-} */
-
-a {
-    color: white;
 }
