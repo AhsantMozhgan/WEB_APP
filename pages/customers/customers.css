@@ -13,6 +13,8 @@ main {
 
 .testimonial__image-container {
     width: 50%;
+    /* max-width: 400px; */
+    min-width: 300px;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -28,6 +30,7 @@ main {
     padding: 14px;
     display: inline-block;
     vertical-align: middle;
+    width: 20%;
 }
 
 #customer-2.testimonial {
