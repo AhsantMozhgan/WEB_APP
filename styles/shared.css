@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-a {
-    color: white;
-}
-
 @font-face {
     font-family: Harmond-ExtdltaExp;
     src: url('../fonts/Harmond-ExtBdItaExp.otf');
