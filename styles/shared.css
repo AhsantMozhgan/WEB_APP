@@ -7,6 +7,10 @@
     src: url('../fonts/Harmond-ExtBdItaExp.otf');
 }
 
+/* html {
+    margin: 30px;
+} */
+
 body {
     margin: 0;
     font-family: 'Harmond-ExtdltaExp';
@@ -16,6 +20,9 @@ body {
     width: 100%;
     background: rgb(0, 119, 255);
     padding: 8px 16px;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
 }
 
 .main-header > div {
