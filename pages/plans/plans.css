@@ -2,6 +2,13 @@ main {
     padding-top: 32px;
 }
 
+.background {
+    background: url(../../images/bg-image.jpg);
+    width: 500px;
+    height: 230px;
+    position: fixed;
+}
+
 .plan {
     width: 60%;
     margin: 16px 0;
