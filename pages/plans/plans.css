@@ -21,6 +21,7 @@ main {
     text-align: left;
     border-radius: 3px;
     z-index: 0;
+    /* position: relative; */
 }
 
 .plan a {
@@ -36,6 +37,14 @@ main {
     font-size: 15px;
     border-radius: 3px;
     background: #ffffff;
+}
+
+.plan__badge {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    margin: 20px;
+    font-size: 20px;
 }
 
 .clearfix {
