@@ -149,6 +149,16 @@ body {
     outline: none;
 }
 
+#features {
+    background: #f5f5f5;
+    margin-top: 80;
+    padding: 16px;
+}
+
+#features .section-title {
+    margin: 32px;
+}
+
 /* p::first-letter {
     font-size: 20px;
     color: red;
