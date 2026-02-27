@@ -16,6 +16,12 @@
 
 .box-3 {
     background: rgb(56, 142, 60, 0.5);
+    grid-column-start: 3;
+    /* grid-column-start: 2;
+    grid-column-start: 4; */
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .box-4 {
