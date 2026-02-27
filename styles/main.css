@@ -90,6 +90,13 @@ body {
     ;
 }
 
+
+@media (min-width: 40rem) {
+    #overview {
+        height: 50vh;
+    }
+}
+
 .section-title {
     color: #1565c0;
     text-align: center;
