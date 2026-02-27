@@ -22,9 +22,9 @@ body {
     border: 3px solid #1565c0;
     border-radius: 3px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* flex-direction: column; */
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     flex-wrap: wrap;
     align-items: center;
     height: 700px;
@@ -53,6 +53,8 @@ body {
     border: 2px solid #1565c0;
     margin: 10px;
     height: 150px;
+    align-self: flex-start;
+    align-self: flex-end;
 }
 
 .box-4 {
