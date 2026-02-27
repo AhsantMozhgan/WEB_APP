@@ -25,7 +25,8 @@ body {
     flex-direction: row;
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
     align-items: center;
     height: 700px;
     justify-content: flex-start;
@@ -53,8 +54,8 @@ body {
     border: 2px solid #1565c0;
     margin: 10px;
     height: 150px;
-    align-self: flex-start;
-    align-self: flex-end;
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
 }
 
 .box-4 {
@@ -64,7 +65,7 @@ body {
     margin: 10px;
     width: 200px;
     height: 200px;
-    order: 1;
+    /* order: 1; */
     /* order: -1; */
 }
 
@@ -74,6 +75,7 @@ body {
     border: 2px solid #1565c0;
     margin: 10px;
     width: 250px;
+    flex-shrink: 1;
 }
 
 .box-6 {
@@ -82,4 +84,6 @@ body {
     border: 2px solid #1565c0;
     margin: 10px;
     width: 250px;
+    /* flex-shrink: 1; */
+    flex-shrink: 4;
 }
