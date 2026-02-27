@@ -4,8 +4,12 @@
     height: 300px;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 5rem auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
+    /* justify-items: center; */
+    /* justify-items: start;
+    justify-items: end; */
+    /* align-items: center;
+    align-items: start;
+    align-items: end; */
 }
 
 .box-1 {
@@ -17,6 +21,8 @@
     grid-column-start: 1;
     grid-column-end: -1;
     grid-row-start: 2;
+    justify-self: center;
+    align-self: center;
 }
 
 .box-3 {
