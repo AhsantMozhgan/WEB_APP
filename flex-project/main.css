@@ -23,6 +23,12 @@ body {
     border-radius: 3px;
     display: flex;
     /* display: inline-flex; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap-reverse;
 }
 
 .box-1 {
