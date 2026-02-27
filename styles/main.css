@@ -185,10 +185,6 @@ body {
     text-align: center;
 }
 
-.features__list--element {
-    display: inline-block;
-    width: 30%;
-}
 
 .features__image {
     background: #bbdefb;
@@ -204,6 +200,13 @@ body {
     color: #1976d2;
     font-size: 18px;
     margin-top: 140px;
+}
+
+@media (min-width: 40rem) {
+    .features__list--element {
+        display: inline-block;
+        width: 30%;
+    }
 }
 
 .main-footer {
