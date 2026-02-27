@@ -23,12 +23,18 @@ body {
     border-radius: 3px;
     display: flex;
     /* display: inline-flex; */
-    /* flex-direction: row; */
-    flex-direction: row-reverse;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
     /* flex-direction: column; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* flex-wrap: nowrap; */
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    height: 700px;
+    /* justify-content: center; */
+    justify-content: flex-end;
 }
 
 .box-1 {
